@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Read My Text</string>
+
+    <string name="button_name">Read</string>
+
+    <string name="text_hint">Type Some Message...</string>
+</resources>

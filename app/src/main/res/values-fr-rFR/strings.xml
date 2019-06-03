@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Read My Text</string>
+    <string name="button_name">Lire</string>
+    <string name="text_hint">Entrez Vore Message</string>
+</resources>

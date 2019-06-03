@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34111A53"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/speech_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Something..."
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="25dp"
+        android:background="#FFF"
+        android:gravity="top|left"
+        android:hint="@string/text_hint"
+        android:lines="8"
+        android:maxLines="10"
+        android:minLines="6"
+        android:padding="3dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="#2472D1"
+        android:onClick="performSpeech"
+        android:text="@string/button_name"
+        android:textColor="#FFF" />
+
+</LinearLayout>
